@@ -9,10 +9,13 @@ import Greeter from './Greeter.jsx'
 import Die from './Rolldie.jsx'
 import ListPicker from './Listpicker.jsx'
 import DoubleDice from './DoubleDice.jsx'
+import Heading from './Heading.jsx'
 
 function App() {
   return (
     <div>
+      <Heading color='magenta' text="welcome!" fontSize="90px" />
+      <Heading color='teal' text="blah!" fontSize="40px" />
       <DoubleDice />
       <DoubleDice />
       <DoubleDice />
