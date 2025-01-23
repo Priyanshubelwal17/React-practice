@@ -11,22 +11,15 @@ import ListPicker from './Listpicker.jsx'
 import DoubleDice from './DoubleDice.jsx'
 import Heading from './Heading.jsx'
 import ColorList from './ColorList.jsx'
+import Slots from './Slots'
+
 
 function App() {
   return (
     <div>
-      <ColorList colors={["red", "purple", "green", "yellow", "black"]} />
-      {/* <Heading color='magenta' text="welcome!" fontSize="90px" />
-      <Heading color='teal' text="blah!" fontSize="40px" />
-      <DoubleDice />
-      <DoubleDice />
-      <DoubleDice /> */}
-      {/* <ListPicker values={[1, 2, 4, 3, 5, 6]} /> */}
-      {/* <Greeter person='bob' />
-      <Die numsides={3} />
-      <Die numsides={5} />
-      <Die numsides={34} />
-      <Die /> */}
+      return (
+      <Slots val1='🍌' val2='🍌' val3='🍇' />
+      )
     </div>
   )
 }
