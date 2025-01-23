@@ -8,11 +8,15 @@ import Cricket from './Cricket.jsx'
 import Greeter from './Greeter.jsx'
 import Die from './Rolldie.jsx'
 import ListPicker from './Listpicker.jsx'
+import DoubleDice from './DoubleDice.jsx'
 
 function App() {
   return (
     <div>
-      <ListPicker values={[1, 2, 4, 3, 5, 6]} />
+      <DoubleDice />
+      <DoubleDice />
+      <DoubleDice />
+      {/* <ListPicker values={[1, 2, 4, 3, 5, 6]} /> */}
       {/* <Greeter person='bob' />
       <Die numsides={3} />
       <Die numsides={5} />
