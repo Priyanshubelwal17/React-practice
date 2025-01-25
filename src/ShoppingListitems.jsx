@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 export default function ShoppingListitems({ item, quantity, completed }) {
     const styles = {
         color: completed ? "grey" : "red",
@@ -11,6 +13,11 @@ export default function ShoppingListitems({ item, quantity, completed }) {
     )
 }
 
+ShoppingListitems.propTypes = {
+    item: PropTypes.string,
+    quantity: PropTypes.number,
+    completed: PropTypes.bool,
+}
 
 {/* <li key={i.id} style={{
     color: i.completed ? "grey" : "red",
