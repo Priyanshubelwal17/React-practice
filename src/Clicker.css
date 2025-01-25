@@ -1,0 +1,17 @@
+.click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    margin: 10px 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+}
