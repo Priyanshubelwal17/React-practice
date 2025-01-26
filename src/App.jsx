@@ -18,6 +18,7 @@ import Clicker from './Clicker.jsx'
 import Form from './form.jsx'
 import Counter from './Counter.jsx'
 import Toggler from './Toggler.jsx'
+import TogglerCounter from './TogglerCounter.jsx'
 
 // const data = [
 //   { id: 1, item: "eggs", quantity: 12, completed: false },
@@ -37,7 +38,8 @@ import Toggler from './Toggler.jsx'
 function App() {
   return (
     <div>
-      <Toggler />
+      <TogglerCounter />
+      {/* <Toggler /> */}
       {/* <Counter /> */}
 
     </div>
