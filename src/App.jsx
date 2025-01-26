@@ -15,14 +15,16 @@ import Slots from './Slots'
 import ShoppingList from './ShoppingList.jsx'
 import Property from './PropertyList.jsx'
 import Clicker from './Clicker.jsx'
+import Form from './form.jsx'
+import Counter from './Counter.jsx'
 
 
-const data = [
-  { id: 1, item: "eggs", quantity: 12, completed: false },
-  { id: 2, item: "milk", quantity: 1, completed: "j" },
-  { id: 3, item: "chicken breasts", quantity: 4, completed: false },
-  { id: 4, item: "carrots", quantity: 6, completed: true }
-];
+// const data = [
+//   { id: 1, item: "eggs", quantity: 12, completed: false },
+//   { id: 2, item: "milk", quantity: 1, completed: "j" },
+//   { id: 3, item: "chicken breasts", quantity: 4, completed: false },
+//   { id: 4, item: "carrots", quantity: 6, completed: true }
+// ];
 
 // const properties = [
 //   { id: 1, name: "Beach House", price: 250, rating: 4.5 },
@@ -35,10 +37,8 @@ const data = [
 function App() {
   return (
     <div>
-      <Clicker />
-      {/* <Slots val1='🍌' val2='🍌' val3='🍇' /> */}
-      {/* <ShoppingList items={data} /> */}
-      {/* <Property properties={properties} /> */}
+
+      <Counter />
 
     </div>
   )
