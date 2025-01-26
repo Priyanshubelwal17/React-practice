@@ -17,7 +17,7 @@ import Property from './PropertyList.jsx'
 import Clicker from './Clicker.jsx'
 import Form from './form.jsx'
 import Counter from './Counter.jsx'
-
+import Toggler from './Toggler.jsx'
 
 // const data = [
 //   { id: 1, item: "eggs", quantity: 12, completed: false },
@@ -37,8 +37,8 @@ import Counter from './Counter.jsx'
 function App() {
   return (
     <div>
-
-      <Counter />
+      <Toggler />
+      {/* <Counter /> */}
 
     </div>
   )
