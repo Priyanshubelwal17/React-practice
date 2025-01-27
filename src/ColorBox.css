@@ -1,0 +1,16 @@
+.ColorBox {
+
+    width: 20%;
+    height: 20%;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh;
+} */
+
+.ColorBoxGrid {
+    justify-content: center;
+}

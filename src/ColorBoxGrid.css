@@ -1,0 +1,14 @@
+.ColorBoxGrid {
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

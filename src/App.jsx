@@ -17,33 +17,38 @@ import Property from './PropertyList.jsx'
 import Clicker from './Clicker.jsx'
 import Form from './form.jsx'
 import Counter from './Counter.jsx'
-import Toggler from './Toggler.jsx'
+// import Toggler from './Toggler.jsx'
 import TogglerCounter from './TogglerCounter.jsx'
+import ColorBox from "./ColorBox";
+import ColorBoxGrid from './ColorBoxGrid.jsx'
 
-// const data = [
-//   { id: 1, item: "eggs", quantity: 12, completed: false },
-//   { id: 2, item: "milk", quantity: 1, completed: "j" },
-//   { id: 3, item: "chicken breasts", quantity: 4, completed: false },
-//   { id: 4, item: "carrots", quantity: 6, completed: true }
-// ];
-
-// const properties = [
-//   { id: 1, name: "Beach House", price: 250, rating: 4.5 },
-//   { id: 2, name: "Mountain Cabin", price: 300, rating: 4.7 },
-//   { id: 3, name: "City Apartment", price: 150, rating: 4.2 },
-//   { id: 4, name: "Luxury Villa", price: 500, rating: 4.9 },
-//   { id: 5, name: "Cozy Cottage", price: 200, rating: 4.6 },
-// ];
+const colors = [
+  "#E53935",
+  "#E91E63",
+  "#9C27B0",
+  "#673AB7",
+  "#3F51B5",
+  "#2196F3",
+  "#03A9F4",
+  "#00BCD4",
+  "#009688",
+  "#4CAF50",
+  "#8BC34A",
+  "#CDDC39",
+  "#FFEB3B",
+  "#FFC107",
+  "#FF9800",
+  "#FF5722",
+];
 
 function App() {
   return (
     <div>
-      <TogglerCounter />
-      {/* <Toggler /> */}
-      {/* <Counter /> */}
-
+      <ColorBoxGrid colors={colors} />
+      {/* <ColorBox colors={colors} /> */}
     </div>
-  )
+  );
 }
+
 
 export default App
